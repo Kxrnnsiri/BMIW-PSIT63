@@ -7,7 +7,7 @@
   ### สูตร
   > น้ำหนัก (kg) / ส่วนสูง (m)2  
  
-### [Reference Here](https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B1%E0%B8%8A%E0%B8%99%E0%B8%B5%E0%B8%A1%E0%B8%A7%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A2)
+###### [Reference Here](https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B1%E0%B8%8A%E0%B8%99%E0%B8%B5%E0%B8%A1%E0%B8%A7%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A2)
 
  ## Objective of this project
   - การได้ลองเขียนโปรแกรมpython เเละลองเรียนรู้จากใน lecture
