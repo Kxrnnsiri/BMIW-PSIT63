@@ -1,0 +1,26 @@
+from tkinter import*
+from tkinter import messagebox
+import Profile
+def inform():
+    inform = Tk()
+    inform.geometry('590x550')
+    inform.title("BMIW")
+    inform.configure(background='#660000')
+    headder = PhotoImage(file = "You Inform.png")
+    Label(inform, image=headder, borderwidth=0).grid(row=1, column=0)
+    Label(inform, text="Your Weight"+"      "*6,font="Mali 12",bg="#660000",fg="#FFFFFF").grid(row=2,column=0)
+    weight = Entry(inform,font="consolas 15", bg="#FFFFFF",fg="#660000")
+    weight.grid(row=3,column=0)
+    Label(inform,text="*หมายเหตุหน่วยเป็นกิโลกรัม",bg="#660000",fg="#FFFFFF").grid(row=4,column=0)
+    Label(inform, text="Your Height"+"      "*6,font="Mali 12",bg="#660000",fg="#FFFFFF").grid(row=5,column=0)
+    height = Entry(inform,font="consolas 15", bg="#FFFFFF",fg="#660000")
+    height.grid(row=6,column=0)
+    weight1 = weight.get()
+    height1 = height.get()
+    Label(inform,text="*หมายเหตุหน่วยเป็นเซนติเมตร",bg="#660000",fg="#FFFFFF").grid(row=7,column=0)
+    Label(inform, text='\n',font="Mali 12",bg="#660000",fg="#FFFFFF").grid(row=8,column=0)
+    submit = Button(inform, text="Submit",bg="#FFFFFF",fg="#660000",font ="consolas 10",command=).grid(row=8,column=0)
+    down = PhotoImage(file="ploo.png")
+    Label(inform, image=down,borderwidth=0).grid(row=9,column=0)
+    inform.mainloop()
+inform()
