@@ -51,7 +51,7 @@
  1|[Kxrnnsiri](https://github.com/Kxrnnsiri)| กานต์สิริ พงษ์ศิยานุวัฒน์   | 63070008
  2| [JUTAMAS](https://github.com/JUTAMAS2544)|จุฑามาศ ชนาฐิติกุล       | 63070022
  3| [aumkk](https://github.com/aumkk)|ณัฐณิชา โล่ห์ชาวนา      | 63070050
- 4|[Paweena-Tantisirisomboon](https://github.com/Paweena-Tantisirisomboon)|ปาวีณา ตันติสิริสมบูรณ์     |63070108
+ 4|[Paweena-Tantisirisomboon](https://github.com/Paweena-Tantisirisomboon)|ปาวีณา ตันติสิริสมบูรณ์(ดรอป)     |63070108
  5| [santhitak](https://github.com/santhitak)|สัณฐิตา กระจ่างวงศ์ไพศาล |63070175
 
  
