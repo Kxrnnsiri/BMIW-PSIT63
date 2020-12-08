@@ -10,6 +10,7 @@ def workoutSelector():
         workoutArm(window)
 
     window = Tk()
+    window.geometry("800x500")
     window.configure(background = theme.background_color)
 
     img_body = PhotoImage(master = window, file = "assets/arm.png") # ภาพแขน
