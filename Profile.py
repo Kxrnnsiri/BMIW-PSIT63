@@ -1,9 +1,11 @@
 from tkinter import*
 from tkinter import messagebox
+import theme
+
 def profile():
     profile = Tk()
     profile.geometry("600x430")
-    profile.configure(background='#660000')
+    profile.configure(background=theme.background_color)
     profile.title("BMIW")
     bmiw = PhotoImage(file="Header.png")
     Label(profile, image=bmiw,borderwidth=0).pack(side=TOP,pady=0)
