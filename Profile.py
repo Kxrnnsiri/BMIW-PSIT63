@@ -16,18 +16,18 @@ def profile():
 
     name = Entry(profile, font="consolas 15", bg="#FFFFFF",fg="#660000")
     name.pack(side=TOP,pady=0,padx=60)
-    name1 = name.get()
+    name_get = name.get()
 
     Label(profile, text="Password" , font="Mali 12", bg="#660000", fg="#FFFFFF").pack(side=TOP, pady=0, padx=10)
 
     password = Entry(profile, font="consolas 15", bg="#FFFFFF",fg="#660000")
     password.pack()
-    password1=password.get()
+    password_get=password.get()
 
     def check():
-        name1 = name.get()
-        password1 = password.get()
-        if name1 == "bmiw" and password1 == "1234":
+        name_get = name.get()
+        password_get = password.get()
+        if name_get == "bmiw" and password1 == "1234":
             profile.destroy()
             return name1 and password1
         else:
