@@ -1,6 +1,6 @@
 from tkinter import*
 from tkinter import messagebox
-import Profile
+import tkinter import ttk
 def inform():
     inform = Tk()
     inform.geometry('590x550')
