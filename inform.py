@@ -36,13 +36,13 @@ def inform():
 
     Label(inform, text='\n',font="Mali 12",bg="#660000",fg="#FFFFFF").grid(row=8,column=0)
 
-        def main():
+    def main():
         noti = messagebox.askyesno("Check!",'Save this information?')
-        if True:
-            pass
-            ###ใส่พวก check
-        else:
-                noti.destroyed()
+    if True:
+        pass
+         ###ใส่พวก check
+    else:
+        noti.destroyed()
 
     submit = Button(inform, text="Submit",bg="#FFFFFF",fg="#660000",font ="consolas 10",command=main).grid(row=8,column=0)
     down = PhotoImage(file="ploo.png")
