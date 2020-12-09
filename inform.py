@@ -1,6 +1,6 @@
 from tkinter import*
 from tkinter import messagebox
-import tkinter import ttk
+from tkinter import ttk
 
 def inform():
 
