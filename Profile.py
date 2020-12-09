@@ -27,9 +27,9 @@ def profile():
     def check():
         name_get = name.get()
         password_get = password.get()
-        if name_get == "bmiw" and password1 == "1234":
+        if name_get == "bmiw" and password_get == "1234":
             profile.destroy()
-            return name1 and password1
+            return name_get and password_get
         else:
             messagebox.showerror("ERROR"," This name can't be use")
 
@@ -37,7 +37,7 @@ def profile():
         inform = 'inform.py'
         os.system(inform)
 
-    end = Button(profile, text="Login",bg="#FFFFFF",fg="#660000",font ="Mali 8",command=pagecal).pack(side=TOP,pady=20,ipady=0)
+    end = Button(profile, text="Login",bg="#FFFFFF",fg="#660000",font ="Mali 8",command=check).pack(side=TOP,pady=20,ipady=0)
     Label(profile, text=" By PROTHON",font="Mali 10",fg="#FFFFFF",bg="#660000").pack(side=RIGHT, padx=10)
     profile.mainloop()
 
