@@ -27,7 +27,7 @@ def inform():
     height = Entry(inform,font="consolas 14", bg="#FFFFFF",fg="#660000")
     height.grid(row=8,column=0)
 
-    unit = ttk.Combobox(inform,values = ['Kilogram','Pound'],font="Mali 8",state = "readonly", width=20,)
+    unit = ttk.Combobox(inform,values = ['meter','cm'],font="Mali 8",state = "readonly", width=20,)
     unit.grid(row=8, column=0, sticky='E')
     unit.set("units..")
 
