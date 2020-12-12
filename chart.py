@@ -18,8 +18,8 @@ def chart():
     Label(chart, image=chartpic1, borderwidth=0).grid(row=3, column=0)
 
     def pagecal():
-        exercise = 'exercise.py'
-        os.system(exercise)
+        workout = 'workout.py'
+        os.system(workout)
 
     # Label(chart, text='\n',font="Mali 11",bg="#FFFFFF",fg="#FFFFFF").grid(row=3,column=0)
     Label(chart, text='\n',font="Mali 11",bg="#660000",fg="#FFFFFF").grid(row=4,column=0)
