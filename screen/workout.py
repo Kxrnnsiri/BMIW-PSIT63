@@ -25,53 +25,50 @@ def workoutSelector():
     window.title('เมนูออกกำลังกาย')
     window.configure(background = theme.background_color)
 
-    img_body_1 = PhotoImage(master = window, file = "assets/arm.png") # ภาพแขน
-    # img_body_2 = PhotoImage(master = window, file = "assets/___#ใส่ชื่อรูป___.png") # ภาพท้อง
-    # img_body_3 = PhotoImage(master = window, file = "assets/___#ใส่ชื่อรูป___.png") # ภาพก้น/สะโพก
-    # img_body_4 = PhotoImage(master = window, file = "assets/___#ใส่ชื่อรูป___.png") # ภาพขา
-    # img_body_5 = PhotoImage(master = window, file = "assets/___#ใส่ชื่อรูป___.png") # ภาพร่างกายคน
+    img_body_1 = PhotoImage(master = window, file = "assets/arm_2.png") # ภาพแขน
+    img_body_2 = PhotoImage(master = window, file = "assets/abs.png") # ภาพท้อง
+    img_body_3 = PhotoImage(master = window, file = "assets/leg_1.png") # ภาพขา
+    img_body_4 = PhotoImage(master = window, file = "assets/butt.png") # ภาพสะโพก
+    img_body_5 = PhotoImage(master = window, file = "assets/body_3.png") # ภาพร่างกายคน
 
     btn_arm = Button(
         window,
         image = img_body_1,
-        height = 100,
+        height = 150,
         width = 100,
         command = openArm) #ปุ่มภาพแขน
     btn_arm.grid(row = 0, column = 0, padx = 10, pady = 10)
 
-##
-### ##   ยังรันข้างล่างไม่ได้ จนกว่าภาพจะเสร็จ
+    btn_ab = Button(
+        window,
+        image = img_body_2,
+        height = 150,
+        width = 100,
+        command = openAb) #ปุ่มภาพท้อง
+    btn_ab.grid(row = 0, column = 1, padx = 10, pady = 10)
 
-    # btn_ab = Button(
-    #     window,
-    #     image = img_body_2,
-    #     height = 100,
-    #     width = 100,
-    #     command = openAb) #ปุ่มภาพท้อง
-    # btn_ab.grid(row = 0, column = 1, padx = 10, pady = 10)
+    btn_leg = Button(
+        window,
+        image = img_body_3,
+        height = 150,
+        width = 100,
+        command = openLeg) #ปุ่มภาพขา
+    btn_leg.grid(row = 1, column = 0, padx = 10, pady = 10)
 
-    # btn_leg = Button(
-    #     window,
-    #     image = img_body_3,
-    #     height = 100,
-    #     width = 100,
-    #     command = openLeg) #ปุ่มภาพขา
-    # btn_leg.grid(row = 1, column = 0, padx = 10, pady = 10)
+    btn_bottom = Button(
+        window,
+        image = img_body_4,
+        height = 150,
+        width = 100,
+        command = openBottom) #ปุ่มภาพก้น
+    btn_bottom.grid(row = 1, column = 1, padx = 10, pady = 10)
 
-    # btn_bottom = Button(
-    #     window,
-    #     image = img_body_4,
-    #     height = 100,
-    #     width = 100,
-    #     command = openBottom) #ปุ่มภาพก้น
-    # btn_bottom.grid(row = 1, column = 1, padx = 10, pady = 10)
-
-    # btn_full = Button(
-    #     window,
-    #     image = img_body_5,
-    #     height = 100,
-    #     width = 100,
-    #     command = openFull) #ปุ่มภาพ ทุกส่วนของร่างกาย
-    # btn_full.grid(row = 2, columnspan = 2, sticky = S, padx = 10, pady = 10)
+    btn_full = Button(
+        window,
+        image = img_body_5,
+        height = 150,
+        width = 100,
+        command = openFull) #ปุ่มภาพ ทุกส่วนของร่างกาย
+    btn_full.grid(row = 2, columnspan = 2, sticky = S, padx = 10, pady = 10)
 
     mainloop()
