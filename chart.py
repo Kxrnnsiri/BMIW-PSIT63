@@ -11,9 +11,6 @@ def chart():
     chart.configure(background='#660000')
     chart.resizable(width=False,height=False)
 
-    # chartpic = PhotoImage(file = "charthead.png")
-    # Label(chart, image=chartpic, borderwidth=0).grid(row=1, column=0)
-
     chartpic1 = PhotoImage(file = "bodymass_red.png")
     Label(chart, image=chartpic1, borderwidth=0).grid(row=3, column=0)
 
@@ -21,7 +18,6 @@ def chart():
         workout = 'workout.py'
         os.system(workout)
 
-    # Label(chart, text='\n',font="Mali 11",bg="#FFFFFF",fg="#FFFFFF").grid(row=3,column=0)
     Label(chart, text='\n',font="Mali 11",bg="#660000",fg="#FFFFFF").grid(row=4,column=0)
     Label(chart, text="Click Next to see suitable workout plan",font="Mali 11",bg="#660000",fg="#FFFFFF").grid(row=4)
 
