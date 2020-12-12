@@ -36,13 +36,23 @@ def inform():
 
     Label(inform, text='\n',font="Mali 12",bg="#660000",fg="#FFFFFF").grid(row=11,column=0)
 
+    def checkinput():
+        ###ฝากเเก้ตรงนี้ที มันคือcheckinputกับunit เค้าจะไปทำgoogledocต่อเเล้ว
+        if int(weight_get) != listnum or int(height_get) != listnum:
+             messagebox.showerror("Error!!!","It's must be a num")
+        else:
+            if int(weight_get) >= 500:
+                messagebox.showerror("Error!","Your weight was too much")
+            if int(height_get) >= 500:
+                messagebox.showerror("Error!", "Your height was too much")
+
     def main():
         noti = messagebox.askyesno("Check!",'Save this information?')
-    if True:
-        pass
-         ###ใส่พวก check
-    else:
-        noti.destroyed()
+        if True:
+            checkinput()
+        else:
+            noti.destroyed()
+
 
     submit = Button(inform, text="Submit",bg="#FFFFFF",fg="#660000",font ="consolas 10",command=main).grid(row=11,column=0)
     down = PhotoImage(file="ploo.png")
