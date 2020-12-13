@@ -1,76 +1,85 @@
 # ออกกำลังกายทั้งตัว
 
+from exercise.pose_full import detailFull
 from tkinter import *
 import theme
 
 def workoutFull(main_window):
-    def openlink_5():
+
+    def openlink_1():
+        link = 1
         window.destroy()
-        detailFull()
+        detailFull(link)
+    def openlink_2():
+        link = 2
+        window.destroy()
+        detailFull(link)
+    def openlink_3():
+        link = 3
+        window.destroy()
+        detailFull(link)
+    def openlink_4():
+        link = 4
+        window.destroy()
+        detailFull(link)
+    def openlink_5():
+        link = 5
+        window.destroy()
+        detailFull(link)
 
     window = Toplevel(main_window)
     window.title('เมนูออกกำลังกาย ทุกส่วน')
-    window.geometry('480x320')
+    window.geometry('480x400')
     window.configure(background = theme.background_color)
 
-    poselink_5 = Button(
+    poselink_1 = Button(
         window,
-        text = 'Jump up Burpee',
-        font = 'Kanit',
-        bg = '#FFF5F1',
-        height = 1,
-        width = 30,
-        command = openlink_5
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
+        command = openlink_1
     )
-    poselink_5.pack(pady = 10)
+    poselink_1.pack(pady = 10)
+
+    poselink_2 = Button(
+        window,
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
+        command = openlink_2
+    )
+    poselink_2.pack(pady = 10)
+
+    poselink_3 = Button(
+        window,
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
+        command = openlink_3
+    )
+    poselink_3.pack(pady = 10)
+
+    poselink_4 = Button(
+        window,
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
+        command = openlink_4
+    )
+    poselink_4.pack(pady = 10)
 
     poselink_5 = Button(
         window,
-        text = 'Mountain Climber',
-        font = 'Prompt',
-        fg = '#894C41',
-        bg = '#FFE5DB',
-        height = 1,
-        width = 30,
-        command = openlink_5
-    )
-    poselink_5.pack(pady = 10)
-
-    poselink_5 = Button(
-        window,
-        text = 'Bend Side',
-        font = 'Prompt',
-        fg = '#ffffff',
-        bg = '#FFA691',
-        height = 1,
-        width = 30,
-        command = openlink_5
-    )
-    poselink_5.pack(pady = 10)
-
-    poselink_5 = Button(
-        window,
-        text = 'Single-leg Squats',
-        font = 'Kanit',
-        fg = '#590000',
-        bg = '#00E8F7',
-        height = 1,
-        width = 30,
-        command = openlink_5
-    )
-    poselink_5.pack(pady = 10)
-
-    poselink_5 = Button(
-        window,
-        text = 'Curtsy Squat/Lateral Lift',
-        font = 'Kanit',
-        fg = '#660000',
-        bg = '#00E8F7',
-        height = 1,
-        width = 30,
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
         command = openlink_5
     )
     poselink_5.pack(pady = 10)
 
     mainloop()
-    

@@ -1,5 +1,3 @@
-# หน้าขึ้น 5 รูป
-
 from tkinter import *
 from screen.workout_arm import workoutArm
 from screen.workout_ab import workoutAb
@@ -9,7 +7,6 @@ from screen.workout_full import workoutFull
 import theme
 
 def workoutSelector():
-    # ฟังก์ชันเปิดหน้าต่าง workoutArm
     def openArm():
         workoutArm(window)
     def openAb():
