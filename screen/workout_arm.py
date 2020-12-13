@@ -16,49 +16,59 @@ def workoutArm(main_window):
 
     poselink_1 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
+        text = 'Bench Triceps Dips',
         font = 'Kanit',
         bg = '#FFF5F1',
+        height = 1,
+        width = 30,
         command = openlink_1
     )
     poselink_1.pack(pady = 10)
 
     poselink_1 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
+        text = 'Forward Arm Circles',
         font = 'Prompt',
         fg = '#894C41',
         bg = '#FFE5DB',
+        height = 1,
+        width = 30,
         command = openlink_1
     )
     poselink_1.pack(pady = 10)
 
     poselink_1 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
+        text = 'ลดแขนย้อย',
         font = 'Prompt',
         fg = '#ffffff',
         bg = '#FFA691',
+        height = 1,
+        width = 30,
         command = openlink_1
     )
     poselink_1.pack(pady = 10)
 
     poselink_1 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
+        text = 'กระชับแขน ลดปีกหลัง',
         font = 'Kanit',
         fg = '#590000',
         bg = '#00E8F7',
+        height = 1,
+        width = 30,
         command = openlink_1
     )
     poselink_1.pack(pady = 10)
 
     poselink_1 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
+        text = 'ว่ายน้ำ',
         font = 'Kanit',
         fg = '#660000',
         bg = '#00E8F7',
+        height = 1,
+        width = 30,
         command = openlink_1
     )
     poselink_1.pack(pady = 10)
