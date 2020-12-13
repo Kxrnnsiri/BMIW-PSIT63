@@ -33,50 +33,60 @@ def workoutAb(main_window):
 
     poselink_1 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'reverse crunches',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_1
     )
     poselink_1.pack(pady = 10)
 
     poselink_2 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'Raised Leg Crunch',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_2
     )
     poselink_2.pack(pady = 10)
 
     poselink_3 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'Bicycle Crunch',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_3
     )
     poselink_3.pack(pady = 10)
 
     poselink_4 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'Standard Crunch',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_4
     )
     poselink_4.pack(pady = 10)
 
     poselink_5 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'Elbow Plank',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_5
     )
     poselink_5.pack(pady = 10)
