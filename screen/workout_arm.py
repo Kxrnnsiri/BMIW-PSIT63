@@ -74,3 +74,4 @@ def workoutArm(main_window):
     poselink_1.pack(pady = 10)
 
     mainloop()
+    
