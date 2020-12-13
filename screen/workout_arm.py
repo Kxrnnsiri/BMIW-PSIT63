@@ -1,66 +1,84 @@
 # เมนูออกกำลังกายแขน
 
-from exercise_arm.pose_arm1 import detailArm
+from exercise.pose_arm import detailArm
 from tkinter import *
 import theme
 
 def workoutArm(main_window):
     def openlink_1():
+        link = 1
         window.destroy()
-        detailArm()
+        detailArm(link)
+    def openlink_2():
+        link = 2
+        window.destroy()
+        detailArm(link)
+    def openlink_3():
+        link = 3
+        window.destroy()
+        detailArm(link)
+    def openlink_4():
+        link = 4
+        window.destroy()
+        detailArm(link)
+    def openlink_5():
+        link = 5
+        window.destroy()
+        detailArm(link)
 
     window = Toplevel(main_window)
-    window.title('เมนูออกกำลังกาย เฉพาะส่วนแขน')
-    window.geometry('480x320')
+    window.title('เมนูออกกำลังกาย เฉพาะส่วน แขน')
+    window.geometry('480x400')
     window.configure(background = theme.background_color)
 
     poselink_1 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
-        font = 'Kanit',
-        bg = '#FFF5F1',
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
         command = openlink_1
     )
     poselink_1.pack(pady = 10)
 
-    poselink_1 = Button(
+    poselink_2 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
-        font = 'Prompt',
-        fg = '#894C41',
-        bg = '#FFE5DB',
-        command = openlink_1
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
+        command = openlink_2
     )
-    poselink_1.pack(pady = 10)
+    poselink_2.pack(pady = 10)
 
-    poselink_1 = Button(
+    poselink_3 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
-        font = 'Prompt',
-        fg = '#ffffff',
-        bg = '#FFA691',
-        command = openlink_1
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
+        command = openlink_3
     )
-    poselink_1.pack(pady = 10)
+    poselink_3.pack(pady = 10)
 
-    poselink_1 = Button(
+    poselink_4 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
-        font = 'Kanit',
-        fg = '#590000',
-        bg = '#00E8F7',
-        command = openlink_1
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
+        command = openlink_4
     )
-    poselink_1.pack(pady = 10)
+    poselink_4.pack(pady = 10)
 
-    poselink_1 = Button(
+    poselink_5 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',
-        font = 'Kanit',
-        fg = '#660000',
-        bg = '#00E8F7',
-        command = openlink_1
+        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        font = theme.fontThai_2,
+        fg = theme.fg_menu,
+        bg = theme.bg_menu,
+        command = openlink_5
     )
-    poselink_1.pack(pady = 10)
+    poselink_5.pack(pady = 10)
 
     mainloop()
