@@ -29,55 +29,65 @@ def workoutFull(main_window):
 
     window = Toplevel(main_window)
     window.title('เมนูออกกำลังกาย ทุกส่วน')
-    window.geometry('480x400')
+    window.geometry('480x320')
     window.configure(background = theme.background_color)
 
     poselink_1 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'Jump up Burpee',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_1
     )
     poselink_1.pack(pady = 10)
 
     poselink_2 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'Mountain Climber',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_2
     )
     poselink_2.pack(pady = 10)
 
     poselink_3 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'Bend Side',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_3
     )
     poselink_3.pack(pady = 10)
 
     poselink_4 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'Single-leg Squats',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_4
     )
     poselink_4.pack(pady = 10)
 
     poselink_5 = Button(
         window,
-        text = 'ชื่อท่าออกกำลังกาย',  ## ใส่ ชื่อ ท่า
+        text = 'Curtsy Squat/Lateral Lift',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
+        height = 1,
+        width = 30,
         command = openlink_5
     )
     poselink_5.pack(pady = 10)
