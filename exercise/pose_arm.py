@@ -14,8 +14,6 @@ def detailArm(check):
         Label(
             poseArm_1,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -47,8 +45,6 @@ def detailArm(check):
         Label(
             poseArm_2,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -88,8 +84,6 @@ def detailArm(check):
         Label(
             poseArm_3,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -129,8 +123,6 @@ def detailArm(check):
         Label(
             poseArm_4,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -171,8 +163,6 @@ def detailArm(check):
         Label(
             poseArm_5,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -222,23 +212,23 @@ def detailArm(check):
     window.title('ท่าออกกำลังกาย เฉพาะส่วน แขน')
     window.configure(background = theme.background_color)
 
-    img_1 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_1 = PhotoImage(master = window, file = "assets/arm1.png") ## ใส่รูปภาพ
     poseArm_1 = Frame(window, bg = theme.bgcolor_detail)
     poseArm_1.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_2 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_2 = PhotoImage(master = window, file = "assets/arm2.png") ## ใส่รูปภาพ
     poseArm_2 = Frame(window, bg = theme.bgcolor_detail)
     poseArm_2.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_3 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_3 = PhotoImage(master = window, file = "assets/arm3.png") ## ใส่รูปภาพ
     poseArm_3 = Frame(window, bg = theme.bgcolor_detail)
     poseArm_3.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_4 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_4 = PhotoImage(master = window, file = "assets/arm4.png") ## ใส่รูปภาพ
     poseArm_4 = Frame(window, bg = theme.bgcolor_detail)
     poseArm_4.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_5 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_5 = PhotoImage(master = window, file = "assets/arm5.png") ## ใส่รูปภาพ
     poseArm_5 = Frame(window, bg = theme.bgcolor_detail)
     poseArm_5.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
