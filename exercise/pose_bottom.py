@@ -5,7 +5,7 @@ from tkinter import *
 import theme
 def detailBottom(check):
     def create_pose_1(img):
-        explanation = """Squats
+        explanation = """Squat
         อุปกรณ์ : ไม่มี
         วิธีทำ : 
             1. ยื่นแขนออกไปด้านหน้า ยืนเปิดขา ปลายเท้าชี้ออกเล็กน้อย ย่อค้างไว้ที่ 45 องศา
