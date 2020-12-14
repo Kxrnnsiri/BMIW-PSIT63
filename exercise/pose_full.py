@@ -157,7 +157,7 @@ def detailFull(check):
         btn_next.grid(row = 1, column = 1, sticky = E, padx = 10, pady = 10)
 
     def create_pose_5(img):
-        explanation = """Curtsy Squat/Lateral Lift
+        explanation = """Curtsy Squat
         อุปกรณ์ : ไม่มี
         วิธีทำ :
             1. ยืนตรง แยกเท้าออกเล็กน้อย มือทั้งสองข้างเหยียดตรงไปด้านหน้า จากนั้นถอยขาขวาก้าวไปด้านหลังทางซ้าย พร้อม ๆ กับย่อเข่าลง
