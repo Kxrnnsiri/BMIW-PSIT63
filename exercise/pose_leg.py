@@ -15,8 +15,6 @@ def detailLeg(check):
         Label(
             poseLeg_1,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -42,14 +40,12 @@ def detailLeg(check):
         อุปกรณ์ : ไม่มี
         วิธีทำ :
             1. ท่านี้ให้เราเริ่มจากกางขาทั้งสองขางออกจากกันระยะห่างเท่ามือที่กางออกสองข้าง ปลายเท้าชี้ออกไปด้านข้าง
-            2. กางแขนทั้งสองข้างออกมาในแนวตรงขนานกับขาทั้งสองข้างที่กางออก
+            2. นำมือทั้งสองข้างมาประสานกันข้างหน้า
             3. จากนั้นย่อตัวลงให้เข่าชี้ออก ขาตั้งฉากกัน 90 องศา แล้วยืดตัวขึ้น
         จำนวนเซ็ต : เซ็ตละ 10 - 15 ครั้ง ทั้งหมด 2 เซ็ต""" ## ใส่เนื้อหา/รายละเอียด
         Label(
             poseLeg_2,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -90,8 +86,6 @@ def detailLeg(check):
         Label(
             poseLeg_3,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -131,8 +125,6 @@ def detailLeg(check):
         Label(
             poseLeg_4,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -172,8 +164,6 @@ def detailLeg(check):
         Label(
             poseLeg_5,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -223,23 +213,23 @@ def detailLeg(check):
     window.title('ท่าออกกำลังกาย เฉพาะส่วน ขา')
     window.configure(background = theme.background_color)
 
-    img_1 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_1 = PhotoImage(master = window, file = "assets/leg1.png") ## ใส่รูปภาพ
     poseLeg_1 = Frame(window, bg = theme.bgcolor_detail)
     poseLeg_1.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_2 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_2 = PhotoImage(master = window, file = "assets/leg2.png") ## ใส่รูปภาพ
     poseLeg_2 = Frame(window, bg = theme.bgcolor_detail)
     poseLeg_2.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_3 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_3 = PhotoImage(master = window, file = "assets/leg3.png") ## ใส่รูปภาพ
     poseLeg_3 = Frame(window, bg = theme.bgcolor_detail)
     poseLeg_3.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_4 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_4 = PhotoImage(master = window, file = "assets/leg4.png") ## ใส่รูปภาพ
     poseLeg_4 = Frame(window, bg = theme.bgcolor_detail)
     poseLeg_4.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_5 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_5 = PhotoImage(master = window, file = "assets/leg5.png") ## ใส่รูปภาพ
     poseLeg_5 = Frame(window, bg = theme.bgcolor_detail)
     poseLeg_5.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
