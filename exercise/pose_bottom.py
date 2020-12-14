@@ -14,8 +14,6 @@ def detailBottom(check):
         Label(
             poseBottom_1,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -47,8 +45,6 @@ def detailBottom(check):
         Label(
             poseBottom_2,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -89,8 +85,6 @@ def detailBottom(check):
         Label(
             poseBottom_3,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -131,8 +125,6 @@ def detailBottom(check):
         Label(
             poseBottom_4,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -172,8 +164,6 @@ def detailBottom(check):
         Label(
             poseBottom_5,
             image = img,
-            width = 100,
-            height = 100,
             padx = 10
         ).grid(row = 0, column = 0, sticky = W, padx = 10, pady = 10)
         Label(
@@ -223,23 +213,23 @@ def detailBottom(check):
     window.title('ท่าออกกำลังกาย เฉพาะส่วน สะโพก')
     window.configure(background = theme.background_color)
 
-    img_1 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_1 = PhotoImage(master = window, file = "assets/butt1.png") ## ใส่รูปภาพ
     poseBottom_1 = Frame(window, bg = theme.bgcolor_detail)
     poseBottom_1.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_2 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_2 = PhotoImage(master = window, file = "assets/butt2.png") ## ใส่รูปภาพ
     poseBottom_2 = Frame(window, bg = theme.bgcolor_detail)
     poseBottom_2.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_3 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_3 = PhotoImage(master = window, file = "assets/butt3.png") ## ใส่รูปภาพ
     poseBottom_3 = Frame(window, bg = theme.bgcolor_detail)
     poseBottom_3.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_4 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_4 = PhotoImage(master = window, file = "assets/butt4.png") ## ใส่รูปภาพ
     poseBottom_4 = Frame(window, bg = theme.bgcolor_detail)
     poseBottom_4.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
-    img_5 = PhotoImage(master = window, file = "assets/arm.png") ## ใส่รูปภาพ
+    img_5 = PhotoImage(master = window, file = "assets/butt5.png") ## ใส่รูปภาพ
     poseBottom_5 = Frame(window, bg = theme.bgcolor_detail)
     poseBottom_5.grid(row=0, column=0, padx=20, pady=10, sticky= (W, N, E, S))
 
