@@ -44,18 +44,38 @@ def inform():
 
         bmi = weight.get()/((height.get()/100)**2)
 
-        resulthead = tk.Label(inform, text= 'Your bmi is',font="Mali 11",bg="Blue",fg="#FFFFFF").grid(row=13,column=0,ipadx=245)
-        bmires = tk.Label(inform, text= bmi, font="Mali 11",bg="#660000",fg="#FFFFFF").grid(row=14,column=0)
+        if bmi < 18.5:
+            bg_bmi = "#87b1d9"
+        elif 18.5 <= bmi <= 27.9:
+            bg_bmi = "#3dd365"
+        elif 25 <= bmi <= 29.9:
+            bg_bmi = "#efe136"
+        elif 30 <= bmi <= 34.9:
+            bg_bmi = "#fd802e"
+        elif 35 <= bmi:
+            bg_bmi = "#f95353"
 
-        chart = Button(inform, text="Next",bg="#FFFFFF",fg="#660000",font ="consolas 10", command=pagecal).grid(row=15,column=0)
+
+        resulthead = tk.Label(inform, text= 'Your bmi is',font="Mali 11",bg=bg_bmi,fg="#FFFFFF").grid(row=13,column=0,ipadx=262)
+        bmires = tk.Label(inform, text=round(bmi, 2), font="Mali 11",bg=bg_bmi,fg="#FFFFFF").grid(row=14,column=0,ipadx=280)
+            ## ref for 2 digits show: https://www.codegrepper.com/code-examples/python/how+to+print+a+float+with+only+2+digits+after+decimal+in+python
+
+        chart = Button(inform, text="Next",bg="#FFFFFF",fg="#660000",font ="consolas 10", command=pagecal).grid(row=16,column=0)
 
         return resulthead and bmires and chart
+
+    # def errorcheck():
+    #     try:
+    #         bmi = weight.get()/((height.get()/100)**2)
+    #     except ZeroDivisionError:
+    #         messagebox.showerror("ERROR","Please enter valid value")
 
     Label(inform, text='\n',font="Mali 8",bg="#660000",fg="#FFFFFF").grid(row=10,column=0)
 
     submit = Button(inform, text="Submit",bg="#FFFFFF",fg="#660000",font ="consolas 10", command=bmi_calculator).grid(row=11,column=0)
 
     Label(inform, text='\n',font="Mali 8",bg="#660000",fg="#FFFFFF").grid(row=12,column=0)
+    Label(inform, text='\n',font="Mali 8",bg="#660000",fg="#FFFFFF").grid(row=15,column=0)
     inform.mainloop()
 
 inform()
