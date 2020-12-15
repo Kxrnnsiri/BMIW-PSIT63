@@ -27,6 +27,8 @@ def detailFull(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Beauty Editor, https://www.wongnai.com/articles/exercise-workout-plan]
+        ###Pic.[https://www.mensjournal.com/wp-content/uploads/2018/05/1380-burpee1.jpg?w=700&quality=86&strip=all&iswp=1]
 
         btn_next = Button(poseFull_1,
             text = 'Next',
@@ -59,6 +61,8 @@ def detailFull(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Beauty Editor, https://www.wongnai.com/articles/exercise-workout-plan]
+        ###Pic.[https://images.everydayhealth.com/images/healthy-living/fitness/the-number-one-workout-move-you-should-be-doing-1440x810.jpg]
 
         btn_back = Button(poseFull_2,
             text = 'Previous',
@@ -99,6 +103,8 @@ def detailFull(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[TrueID Women, https://women.trueid.net/detail/EP1yO79D4VR]
+        ###Pic.[https://lh3.googleusercontent.com/proxy/yvPeGBU7QZZp49yPhtfEvyXGVNnPCzT1xydmCD032FaqBQkl9ImLpQAd_eYtkyJsIRso2j1ZC5wnJP18LVyI2In7amrrvNbDbEmTi7_mFEdQw_OQRgXI]
 
         btn_back = Button(poseFull_3,
             text = 'Previous',
@@ -138,6 +144,8 @@ def detailFull(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[TrueID Women, https://women.trueid.net/detail/EP1yO79D4VR]
+        ###Pic.[https://cathe.com/wp-content/uploads/2019/04/shutterstock_300575984.jpg]
 
         btn_back = Button(poseFull_4,
             text = 'Previous',
@@ -179,6 +187,8 @@ def detailFull(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[TrueID Women, https://women.trueid.net/detail/EP1yO79D4VR]
+        ###Pic.[https://lh3.googleusercontent.com/proxy/OHJQWWVSRCWQn5fIZfQ6Hlv1Ub19TRAwlTKUrnxRqZ_bDSx7ZiOec3KgcWoA19-adJtb9ag2zPDXLIPqJpmaoXTDmxOh3265EKllvMyQkS3UNTfzhGDr4m-X]
 
         btn_back = Button(poseFull_5,
             text = 'Previous',
