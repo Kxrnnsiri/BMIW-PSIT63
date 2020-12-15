@@ -24,6 +24,8 @@ def detailBottom(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Joey, http://www.thongmeman.com/post01221191008120]
+        ###Pic.[http://s2.thongmeman.com/thimgs/201906/18/2/15608410498798.jpg]
 
         btn_next = Button(poseBottom_1,
             text = 'Next',
@@ -56,6 +58,8 @@ def detailBottom(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Joey, http://www.thongmeman.com/post01221191008120]
+        ###Pic.[http://s2.thongmeman.com/thimgs/201906/18/2/15608410506830.jpg]
 
         btn_back = Button(poseBottom_2,
             text = 'Previous',
@@ -97,6 +101,8 @@ def detailBottom(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Joey, http://www.thongmeman.com/post01221191008120]
+        ###Pic.[http://s2.thongmeman.com/thimgs/201906/18/2/1560841053490.jpg]
 
         btn_back = Button(poseBottom_3,
             text = 'Previous',
@@ -138,6 +144,8 @@ def detailBottom(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Joey, http://www.thongmeman.com/post01221191008120]
+        ###Pic.[http://s2.thongmeman.com/thimgs/201906/18/2/15608410547173.jpg]
 
         btn_back = Button(poseBottom_4,
             text = 'Previous',
@@ -177,6 +185,8 @@ def detailBottom(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Joey, http://www.thongmeman.com/post01221191008120]
+        ###Pic.[http://s2.thongmeman.com/thimgs/201906/18/2/15608410512274.jpg]
 
         btn_back = Button(poseBottom_5,
             text = 'Previous',
