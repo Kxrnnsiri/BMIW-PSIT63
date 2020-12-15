@@ -3,6 +3,7 @@ from tkinter import messagebox
 import tkinter as tk
 import os
 
+
 def inform():
 
     inform = Tk()
@@ -11,7 +12,7 @@ def inform():
     inform.configure(background='#660000')
     inform.resizable(width=False,height=False)
 
-    header = PhotoImage(file = "You Inform1.png")
+    header = PhotoImage(file = "image/You Inform1.png")
     Label(inform, image=header, borderwidth=0).grid(row=1, column=0)
 
 
@@ -33,12 +34,9 @@ def inform():
         ## ref for input entry : https://stackoverflow.com/questions/47378715/tkinter-how-to-get-the-value-of-an-entry-widget
 
     def pagecal():
-        chart = 'chart.py'
-        os.system(chart)
-
-    # def endpage():
-    #         pagecal()
-    #         inform.destroy()
+        charts = 'chart.py'
+        os.system(charts)
+        inform.destroy()
 
     def bmi_calculator():
 
@@ -62,13 +60,7 @@ def inform():
 
         chart = Button(inform, text="Next",bg="#FFFFFF",fg="#660000",font ="consolas 10", command=pagecal).grid(row=16,column=0)
 
-        return resulthead and bmires and chart
-
-    # def errorcheck():
-    #     try:
-    #         bmi = weight.get()/((height.get()/100)**2)
-    #     except ZeroDivisionError:
-    #         messagebox.showerror("ERROR","Please enter valid value")
+        return resulthead and bmires and chart and pagecal()
 
     Label(inform, text='\n',font="Mali 8",bg="#660000",fg="#FFFFFF").grid(row=10,column=0)
 

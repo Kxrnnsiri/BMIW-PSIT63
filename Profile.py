@@ -9,7 +9,7 @@ def profile():
     profile.configure(background='#660000')
     profile.title("BMIW")
 
-    bmiw = PhotoImage(file="Header.png")
+    bmiw = PhotoImage(file="image/Header.png")
 
     Label(profile, image=bmiw,borderwidth=0).pack(side=TOP,pady=0)
     Label(profile, text="Username",font ="Mali 12", bg="#660000",fg = "#FFFFFF").pack(side=TOP,pady=0,padx=10)
@@ -29,7 +29,7 @@ def profile():
         password_get = password.get()
         if name_get == "bmiw" and password_get == "1234":
             profile.destroy()
-            return name_get and password_get
+            return name_get and password_get and pagecal()
         else:
             messagebox.showerror("ERROR"," This name can't be use")
 

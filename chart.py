@@ -11,7 +11,7 @@ def chart():
     chart.configure(background='#660000')
     chart.resizable(width=False,height=False)
 
-    chartpic1 = PhotoImage(file = "bodymass_red.png")
+    chartpic1 = PhotoImage(file = "image/bodymass_red.png")
     Label(chart, image=chartpic1, borderwidth=0).grid(row=3, column=0)
 
     def pagecal():
