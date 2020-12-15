@@ -29,7 +29,7 @@ def workoutFull(main_window):
 
     window = Toplevel(main_window)
     window.title('เมนูออกกำลังกาย ทุกส่วน')
-    window.geometry('480x320')
+    window.geometry('480x400')
     window.configure(background = theme.background_color)
 
     poselink_1 = Button(
