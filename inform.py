@@ -6,7 +6,7 @@ import os
 def inform():
 
     inform = Tk()
-    inform.geometry('590x550')
+    inform.geometry('590x700')
     inform.title("BMIW")
     inform.configure(background='#660000')
     inform.resizable(width=False,height=False)
@@ -36,30 +36,26 @@ def inform():
         chart = 'chart.py'
         os.system(chart)
 
+    # def endpage():
+    #         pagecal()
+    #         inform.destroy()
+
     def bmi_calculator():
 
         bmi = weight.get()/((height.get()/100)**2)
 
-        resulthead = tk.Label(inform, text= 'Your bmi is',font="Mali 11",bg="#660000",fg="#FFFFFF").grid(row=13,column=0)
+        resulthead = tk.Label(inform, text= 'Your bmi is',font="Mali 11",bg="Blue",fg="#FFFFFF").grid(row=13,column=0,ipadx=245)
         bmires = tk.Label(inform, text= bmi, font="Mali 11",bg="#660000",fg="#FFFFFF").grid(row=14,column=0)
 
-        chart = Button(inform, text="Next",bg="#FFFFFF",fg="#660000",font ="consolas 10", command=pagecal).grid(row=16,column=0)
+        chart = Button(inform, text="Next",bg="#FFFFFF",fg="#660000",font ="consolas 10", command=pagecal).grid(row=15,column=0)
 
-        return resulthead and bmires and chart and pagecal()
+        return resulthead and bmires and chart
 
-    # def check():
-    #     if not weight.get() and not height.get():
-    #         messagebox.showinfo("Error", "Please enter valid data")
-
-    #     else:
-    #         return bmi_calculator()
-
-    Label(inform, text='\n',font="Mali 11",bg="#660000",fg="#FFFFFF").grid(row=10,column=0)
+    Label(inform, text='\n',font="Mali 8",bg="#660000",fg="#FFFFFF").grid(row=10,column=0)
 
     submit = Button(inform, text="Submit",bg="#FFFFFF",fg="#660000",font ="consolas 10", command=bmi_calculator).grid(row=11,column=0)
 
-    Label(inform, text='\n',font="Mali 10",bg="#660000",fg="#FFFFFF").grid(row=12,column=0)
-    Label(inform, text='\n',font="Mali 10",bg="#660000",fg="#FFFFFF").grid(row=15,column=0)
+    Label(inform, text='\n',font="Mali 8",bg="#660000",fg="#FFFFFF").grid(row=12,column=0)
     inform.mainloop()
 
 inform()
