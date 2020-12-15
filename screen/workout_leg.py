@@ -28,7 +28,7 @@ def workoutLeg(main_window):
 
     window = Toplevel(main_window)
     window.title('เมนูออกกำลังกาย เฉพาะส่วน ขา')
-    window.geometry('480x400')
+    window.geometry('480x320')
     window.configure(background = theme.background_color)
 
     poselink_1 = Button(
