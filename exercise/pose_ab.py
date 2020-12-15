@@ -26,6 +26,8 @@ def detailAB(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Dream Inspired, https://sistacafe.com/summaries/3025]
+        ###Pic.[http://img.aws.livestrongcdn.com/ls-slideshow-main-image/cme/photography.prod.demandstudios.com/b6e78136-8792-4288-b0a9-350f94adfe12.gif]
 
         btn_next = Button(poseAB_1,
             text = 'Next',
@@ -57,6 +59,8 @@ def detailAB(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Dream Inspired, https://sistacafe.com/summaries/3025]
+        ###Pic.[http://img.aws.livestrongcdn.com/ls-slideshow-main-image/cme/photography.prod.demandstudios.com/a39d823e-f0e5-405c-99ac-07f9c7db0f0a.gif]
 
         btn_back = Button(poseAB_2,
             text = 'Previous',
@@ -97,6 +101,8 @@ def detailAB(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Dream Inspired, https://sistacafe.com/summaries/3025]
+        ###Pic.[http://img.aws.livestrongcdn.com/ls-slideshow-main-image/cme/photography.prod.demandstudios.com/4892ee9f-412e-470f-beaa-ed92e5b7a62d.gif]
 
         btn_back = Button(poseAB_3,
             text = 'Previous',
@@ -138,6 +144,8 @@ def detailAB(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Dream Inspired, https://sistacafe.com/summaries/3025]
+        ###Pic.[http://img.aws.livestrongcdn.com/ls-slideshow-main-image/cme/photography.prod.demandstudios.com/929cc1dd-f0fe-49d5-b2b7-18101d48074a.gif]
 
         btn_back = Button(poseAB_4,
             text = 'Previous',
@@ -177,6 +185,8 @@ def detailAB(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[https://www.siphhospital.com/th/news/article/share/861]
+        ###Pic.[https://i.pinimg.com/originals/02/67/a1/0267a1d9d3eda030b4a5b578a6985cc8.jpg]
 
         btn_back = Button(poseAB_5,
             text = 'Previous',
