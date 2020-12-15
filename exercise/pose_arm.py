@@ -24,6 +24,8 @@ def detailArm(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[www.wongnai.com]
+        ###Pic.[https://wiki-fitness.com/wp-content/uploads/2014/04/triceps-dips-300x300.jpg]
 
         btn_next = Button(poseArm_1,
             text = 'Next',
@@ -55,6 +57,8 @@ def detailArm(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[TrueID Lifestyle，https://women.trueid.net/detail/ZqW64VVAnK4D]
+        ###Pic.[https://scontent.fbkk22-6.fna.fbcdn.net/v/t1.0-9/69524854_2714933418537441_6583403245144637440_o.jpg?_nc_cat=102&ccb=2&_nc_sid=cdbe9c&_nc_eui2=AeF7feUlSHcFbszUZvZwB0Dx3Un-DrAJ8uPdSf4OsAny4zbMw1_gcsfKur1FVznn3URniL9SkK-UkaTjqYt5WBpi&_nc_ohc=jJZi_9CUPlMAX9igapJ&_nc_ht=scontent.fbkk22-6.fna&oh=2ffa88da00db2d7214199bfedde45e3d&oe=5FFEA80E]
 
         btn_back = Button(poseArm_2,
             text = 'Previous',
@@ -94,6 +98,8 @@ def detailArm(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[TrueID Lifestyle，https://women.trueid.net/detail/ZqW64VVAnK4D]
+        ###Pic.[https://scontent.fbkk22-1.fna.fbcdn.net/v/t1.0-9/70885905_2714933438537439_8340204637697081344_o.jpg?_nc_cat=108&ccb=2&_nc_sid=cdbe9c&_nc_eui2=AeFnOBjyIvUxunmOhWCfhKbli4nC86tcQYaLicLzq1xBhqWVt3gopLJa2uItoqb4kTiCP4zO1Ml8TnMJTCkfUkJh&_nc_ohc=hpwMNY5IUSsAX9SHc6c&_nc_ht=scontent.fbkk22-1.fna&oh=4ede2c3a9438bb5b6696448f40d219e3&oe=5FFD9246]
 
         btn_back = Button(poseArm_3,
             text = 'Previous',
@@ -133,6 +139,8 @@ def detailArm(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[TrueID Lifestyle，https://women.trueid.net/detail/ZqW64VVAnK4D]
+        ###Pic.[https://scontent.fbkk22-1.fna.fbcdn.net/v/t1.0-9/71323178_2714933391870777_1444280025699319808_o.jpg?_nc_cat=100&ccb=2&_nc_sid=cdbe9c&_nc_eui2=AeG_wnLo-Oa4CjiWQfp7wbstX1o0v8_aPlNfWjS_z9o-U5RkODJWR7gF0ztguLlklevMMNcmY0IXxEP1k6lJQhPN&_nc_ohc=wfezNwuW4AoAX8YjJPA&_nc_ht=scontent.fbkk22-1.fna&oh=a920b4c769580b60f8bc280cb9ce697c&oe=5FFB6CB8]
 
         btn_back = Button(poseArm_4,
             text = 'Previous',
@@ -173,6 +181,8 @@ def detailArm(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr. [PilatesAnytime，https://www.pilatesanytime.com/exercise-view/1681/video/Pilates-Swimming-by-Niedra-Gabriel]
+        ###Pic.[https://i.pinimg.com/originals/bb/77/d1/bb77d1475e907e097be970867d00c9f2.gif]
 
         btn_back = Button(poseArm_5,
             text = 'Previous',
