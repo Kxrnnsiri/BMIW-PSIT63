@@ -29,7 +29,7 @@ def workoutFull(main_window):
 
     window = Toplevel(main_window)
     window.title('เมนูออกกำลังกาย ทุกส่วน')
-    window.geometry('480x400')
+    window.geometry('480x320')
     window.configure(background = theme.background_color)
 
     poselink_1 = Button(
@@ -82,7 +82,7 @@ def workoutFull(main_window):
 
     poselink_5 = Button(
         window,
-        text = 'Curtsy Squat/Lateral Lift',  ## ใส่ ชื่อ ท่า
+        text = 'Curtsy Squat',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
