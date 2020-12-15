@@ -25,6 +25,8 @@ def detailLeg(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[✧ Soul･* Sparkling ✧, https://sistacafe.com/summaries/639]
+        ###Pic.[https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2018%2F04%2F03205456%2Fside-lateral-lunge-how-to-benefits.jpg]
 
         btn_next = Button(poseLeg_1,
             text = 'Next',
@@ -57,6 +59,8 @@ def detailLeg(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[Beauty Editor，https://www.wongnai.com/articles/30-days-thighs-slimming]
+        ###Pic.[https://media1.popsugar-assets.com/files/thumbor/Mf0Mqvp9u2LzXXZQyL4aqotFnmk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2013/09/19/755/n/1922729/22183032776364b3_Wide-Squat/i/Pli%C3%A9-Squat-15-Reps.jpg]
 
         btn_back = Button(poseLeg_2,
             text = 'Previous',
@@ -98,6 +102,8 @@ def detailLeg(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[wongnai Beauty, https://www.wongnai.com/articles/30-days-thighs-slimming]
+        ###Pic.[https://iytimg.com/vi/OB0GjxpPGS0/maxresdefault.jpg]
 
         btn_back = Button(poseLeg_3,
             text = 'Previous',
@@ -137,6 +143,8 @@ def detailLeg(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[wongnai Beauty, https://www.wongnai.com/articles/30-days-thighs-slimming]
+        ###Pic.[https://i.ytimg.com/vi/jgh6sGwtTwk/maxresdefault.jpg]
 
         btn_back = Button(poseLeg_4,
             text = 'Previous',
@@ -177,6 +185,8 @@ def detailLeg(check):
             padx = 20,
             pady = 20
         ).grid(row = 0, column = 1, padx = 10, pady = 10)
+        ###Cr.[we fitness society, https://society.wefitnesssociety.com/7-%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%81%E0%B8%B3%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%94%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%82%E0%B8%B2/]
+        ###Pic.[https://i.ytimg.com/vi/Wp4BlxcFTkE/maxresdefault.jpg]
 
         btn_back = Button(poseLeg_5,
             text = 'Previous',
