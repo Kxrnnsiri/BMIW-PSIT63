@@ -8,5 +8,5 @@ fg_pose = '#ffffff'
 bg_back = '#008A94'
 bg_next = '#3D6810'
 
-fontThai_1 = 'Kanit'
-fontThai_2 = 'Prompt'
+fontThai_1 = 'Prompt'
+fontThai_2 = 'Leelawadee'
