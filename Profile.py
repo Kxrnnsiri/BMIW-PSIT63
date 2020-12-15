@@ -1,12 +1,13 @@
 from tkinter import*
 from tkinter import messagebox
 import os
+import theme
 
 def profile():
 
     profile = Tk()
     profile.geometry("600x430")
-    profile.configure(background='#660000')
+    profile.configure(background=theme.background_color)
     profile.title("BMIW")
 
     bmiw = PhotoImage(file="image/Header.png")
