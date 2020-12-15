@@ -33,7 +33,7 @@ def workoutArm(main_window):
 
     poselink_1 = Button(
         window,
-        text = 'Bench Triceps Dips',  ## ใส่ ชื่อ ท่า
+        text = 'นั่งกลางอากาศ',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
@@ -45,7 +45,7 @@ def workoutArm(main_window):
 
     poselink_2 = Button(
         window,
-        text = 'Forward Arm Circles',  ## ใส่ ชื่อ ท่า
+        text = 'กระชับต้นแขน',  ## ใส่ ชื่อ ท่า
         font = theme.fontThai_2,
         fg = theme.fg_menu,
         bg = theme.bg_menu,
